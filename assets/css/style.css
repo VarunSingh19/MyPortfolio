@@ -25,6 +25,9 @@ body::before {
   top: 0;
   height: 100vh;
 }
+.custom-shadow {
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.9); /* Adjust the last parameter for opacity */
+}
 
 @media (min-width: 1024px) {
   body::before {
